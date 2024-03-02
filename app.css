@@ -1,4 +1,4 @@
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,12 +8,12 @@
     outline: none;
 }
 :root{
-    --color-white:#000000;
-    --color-light:#f5d2d2;
+    --color-white:hsl(0, 0%, 100%);
+    --color-light:#970000;
     --color-primary:hsl(0, 0%, 0%);
     --color-dark:#212121;
-    --color-border:hsl(0, 0%, 1%);
-    --color-bg:hsl(187, 100%, 74%);
+    --color-border:hsl(0, 0%, 100%);
+    --color-bg:hsl(0, 18%, 22%);
 
 }
 body{
@@ -22,8 +22,8 @@ body{
 }
   h1{
     font-size: 35px;
-    font-weight: 400;
-    color: darksalmon;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
     line-height: 30px;
     margin: 1rem 0;
     
@@ -40,14 +40,14 @@ h4{
     font-size: 20px;
     font-weight: 600;
     line-height: 31px;
-    color:var(--color-primary);
+    color:var(--color-white);
 
 }
 h5{
     font-size: 18px;
     font-weight: 500;
     line-height: 20px;
-    color:black;
+    color:rgb(255, 255, 255);
 
 }
 p{
@@ -59,7 +59,7 @@ p{
     
     display: inline-block;
     width: fit-content;
-    border: 1px solid rgb(206, 58, 58);
+    border: 1px solid rgb(248, 153, 153);
     padding: 12px 30px;
     font-size: 15px;
     font-weight: 500;
@@ -111,16 +111,16 @@ ul {
     
 }
 .logo h2{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 32px;
 }
 .nav-container ul{
     display: flex;
-    align-items: center;
+    align-items: middle;
     gap:40px;
 }
 .nav-container ul li a{
-    color: #111111;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     transition: .4s ease;
@@ -132,7 +132,7 @@ ul {
 span{
      
     color: var(--color-primary);
-    text-shadow:0 0 10px rgb(43, 226, 211);
+    text-shadow:0 0 10px rgb(0, 255, 234);
     
 }
 header{
@@ -215,7 +215,7 @@ align-items: center;
     align-items: center;
     flex-direction: column;
     margin: auto;
-    gap: 10px;
+    gap: 12px;
     text-align: center;
 }
 .about-article img{
@@ -299,8 +299,8 @@ align-items: center;
     margin: auto;
 }
 #Blog .row .header h1{
-   padding-top: 280px;
-   gap: 19px;
+   padding-top: 200px;
+   gap: 20px;
 }
  .header h1{
   margin:29px ;
@@ -315,8 +315,8 @@ align-items: center;
     height: auto;
 }
 .content .card p{
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .content{
  display: flex;
@@ -329,7 +329,7 @@ align-items: center;
     flex: 2;
     margin: 50px 50px;
     box-shadow: 0px  4px 0px rgba(0,0,0,0,1);
-    background-color: #212121;
+    background-color: #888383;
     border-radius: 19px;
 }
 
@@ -364,7 +364,7 @@ form input{
     font-weight: 500;
 }
 form input:focus{
-    border-bottom: 1px solid rgb(189, 170, 207);
+    border-bottom: 1px solid rgb(176, 146, 204);
     color:var(--color-primary);
     box-shadow: none;
 }
@@ -388,7 +388,7 @@ form input:focus{
     color: var(--color-primary);
 }
 .form-bottom textarea :focus{
-border-bottom: 1px solid rgb(169, 108, 226);
+border-bottom: 1px solid rgb(62, 0, 119);
 }
 
 footer{
